@@ -4,7 +4,15 @@
 	margin: 0px;
   justify-content: center;
 	font-family: sans-serif;
-	background: #a1a345;
+	background: #000000;
+}
+
+a{
+	text-decoration: none;
+}
+
+ul,ol{
+	list-style-type: none;
 }
 
 .container {
@@ -14,10 +22,16 @@
 .navigation {
   display: flex;
 	
+	
 }
 .page-header{
-	background-color: #ffffff;
 	height: 70px;
+	background-color: #ffffff;
+	justify-content: center;
+	align-items: center;
+	
+	
+	
 }
 .main-index{
 	background-color: #ffffff;
@@ -27,27 +41,45 @@
 	height: 70px;
 }
 .navigation-list {
-  display: flex;
-  padding: 20px 17px;
+  display: flex;	
   gap: 34px;
   list-style-type: none;
-	
+	padding: 10px 17px;
 }
 
 .user-navigation-list {
   display: flex;
-  padding: 20px 17px;
+	
   gap: 34px;
   list-style-type: none;
+}
+
+.user-navigation {
+	display: flex;
+	padding: 10px 17px;
+	
+	margin-right: 70px;
+	margin-left: auto;
 }
 
 .header-button {
 	width: 160px;
 	height: 37px;
-	text-align: r;
-	margin-top: 14px;
-	margin-right: 70px;
+	text-align: center;
+	text-transform: uppercase;
 	padding-top: 14px;
+	margin-left:18px;
+	font-size: 16px;
+	font-weight: bold;
 	border-radius: 4px;
   background-color: #756257;
+}
+.button-text {
+	color: #ffffff;
+}
+
+.navigation-logo {
+	margin-top: 0%;
+	width: 139px;
+	height: 75px;
 }
