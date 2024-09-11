@@ -1,31 +1,30 @@
-.container{
-	
-	width: 100%;
-	max-width: 1060px;
-	display:inline-block;
-	background: #756257;
+.page {
+  display: flex;
+  align-items: center;
+	margin: 0px;
+  justify-content: center;
 	font-family: sans-serif;
-	
+	background: #a1a345;
+}
+
+.container {
+	width: 100%;
 }
 
 .navigation {
   display: flex;
+	
 }
-ul {
-}
-header{
+.page-header{
 	background-color: #ffffff;
 	height: 70px;
-	width: 1060px;
 }
-main{
+.main-index{
 	background-color: #ffffff;
-	width: 1060px;
 }
-footer{
+.page-footer{
 	background-color: #ffffff;
 	height: 70px;
-	width: 1060px;
 }
 .navigation-list {
   display: flex;
@@ -45,6 +44,7 @@ footer{
 .header-button {
 	width: 160px;
 	height: 37px;
+	text-align: r;
 	margin-top: 14px;
 	margin-right: 70px;
 	padding-top: 14px;
